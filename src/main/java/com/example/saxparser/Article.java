@@ -5,6 +5,6 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class Article {
     private String title;
-    private String publicDate;
+    private String pubDate;
     private String link;
 }

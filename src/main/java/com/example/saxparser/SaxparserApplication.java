@@ -41,7 +41,10 @@ public class SaxparserApplication {
                     articleList.add(article);
                 }
             }
-            System.out.println(articleList);
+            for (Article item: articleList) {
+                    System.out.println("\n");
+                    System.out.println(item);
+            }
         }catch (Exception e){
             e.printStackTrace();
         }
